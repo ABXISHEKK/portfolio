@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.navbar{
+    /* border: 1px solid black ; */
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: blue;
+        color: white;
+        position: sticky; 
+        top: 0;
+        z-index: 100;
+}
+.logodiv{
+    width: 40%;
+}
+.logodiv P{
+    font-size: 35PX;
+    padding: 10PX;
+    text-align: center;
+}
+.logo{
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 010px;
+}
+.navsection{
+    width: 60%;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navsection a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.navsection i{ 
+    display: none;
+}
+
+.navsection a:hover{
+    color: rgb(255, 206, 69);
+    text-decoration: underline;
+    font-size: 18PX;
+}
+.navsection button{
+    color: blueviolet;
+    background-color: rgb(255, 206, 69);
+    height: 35px;
+    width: 150px;
+    border: none;
+    border-radius: 5%;
+}
+.navsection button:hover {
+    background-color: #F6C6EA;
+    color: blueviolet;
+} 
+
+.content{
+    display: flex;
+    /* border: 1px solid red; */
+    height: 550px;
+    width: 100%;
+}
+.subcontent-1{
+    width: 50%;
+    /* border: 1px solid blue; */
+    margin-left: 100px;
+    margin-top: 120px;
+}
+
+.subcontent-1 #itsme{
+    font-size: 41px;
+
+}
+.subcontent-1 #itsme span{
+    font-size: 41px;
+}
+
+
+
+.subcontent-2 img{
+    height: 320px;
+    width: 320px;
+    margin-left: 160px;
+    margin-top: 100px;
+    transition:all 1s ;
+}
+.subcontent-2 img:hover{
+    scale: 1.1;
+    transition:all 1s ;}
+
+.about{
+    font-size: 18px;
+    color: rgb(78, 65, 65);
+    line-height: 27px;
+}
+#button{
+    background-color: rgb(255, 206, 69);
+    color: rgb(134, 6, 255);
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 9%;  
+    font-size: 18px;  
+}
+#button1{
+    background-color: white;
+    color: rgb(134, 6, 255);
+    margin-top: 30px;
+    width: 140px;
+    height: 50px;
+    border-radius: 9%;  
+    font-size: 18px;  
+}
+
+#button:hover{
+    background-color: #F6C6EA;
+    color: blueviolet;
+}
+#button1:hover{
+    background-color: wheat;
+}
+
+
+.Personalized{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 50%;
+}
+.Personalized h1{
+    color: blue;
+    /* border: 1px solid black; */
+}
+/* .Personalized p{
+    font-size: 18px;
+    color: rgb(74, 70, 70);
+} */
+
+.line-1{
+    font-size: large;
+    color: rgb(78, 65, 65);
+    /* border: 1px solid black; */   
+
+}
+.Personalized #about-1{
+    font-size: 20px;
+}
+
+
+.Skills{
+    height: 550px;
+    /* border: 1px solid black; */
+}
+
+.Skills h1{
+    font-size: 50px;
+    text-align: center;
+    /* border: 1px solid red; */
+    color: rgb(78, 65, 65);
+}
+#core-skills{
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+
+}
+.Skills #core-skills h3{
+    color: blue;
+    font-size: 30px;
+    /* margin-left: 100px; */
+    /* text-decoration: underline; */
+}
+#core-skills p{
+    font-size: 25px;
+}
+
+
+
+.Projects{
+    height: 400px;
+}
+.Projects h1{
+    font-size: 50px ;
+    text-align: center;
+    /* border: 1px solid red; */
+    color: rgb(78, 65, 65);
+}
+
+
+
+
+
+
+
+
+#me{
+    text-align: center;
+    color: rgb(73, 57, 57);
+    /* text-decoration: underline; */
+}
+#me a{
+    line-height: 35px;
+}
+.footer{
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+  }
+
+  @media (min-width:340px) and (max-width:640px){
+  .navbar{
+       /* border: 1px solid black ; */
+       height: 70px;
+          width: 100%;
+          display: flex;
+          background-color: blue;
+          color: white;
+           position: sticky; 
+           top: 0;
+          z-index: 100;
+      }
+.logo{
+        width: 100%;
+      }
+.logodiv{
+    width: 100%;
+}
+.navsection{
+    width: 100%;
+}
+.navsection a{ 
+    text-decoration: none;
+    color: blue;
+    font-size: 10px;
+    align-items: end;
+}
+
+  .logodiv P{
+    padding: 0px;   
+    font-size: 20px;
+  }
+  
+     
+  .content{
+      display: block;
+      width: 547px;
+      height: 550px;
+      /* border: 5px solid black; */
+  
+  }
+  .subcontent-1{
+      margin-left: 1px;
+      width: 100%;
+      margin-top: 30px;
+  }
+  .content h2{
+      text-align: center;
+      font-size: 28px;
+      }
+  .subcontent-1 #itsme {
+      text-align: center;
+      font-size: 20px;
+      width: 100%;
+  }
+  .about{
+      font-size: 20px;
+      color: rgb(78, 65, 65);
+      line-height: 25px;
+      padding: 5%;
+      text-align: justify;
+  }
+  #button1{
+   margin-left: 130px;
+  }
+  
+  #button{
+      margin-left: 70px;
+     }
+
+
+    }
